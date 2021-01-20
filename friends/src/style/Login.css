@@ -1,0 +1,45 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;  
+    background-color: #e5e5e5;
+    background-size: cover;
+}
+
+
+.user-name{
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+.pass-word{
+    height: 30px;
+    
+}
+
+.buttonloading {
+    background-color: #14213d;
+    color: #ffffff;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.buttonloading:hover{
+    background-color: #457b9d;
+    color: #e5e5e5;
+}
